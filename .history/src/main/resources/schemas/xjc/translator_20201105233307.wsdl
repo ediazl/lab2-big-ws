@@ -55,7 +55,7 @@
             </wsdl:output>
         </wsdl:operation>
     </wsdl:binding>
-    <wsdl:service name="Translator">
+    <wsdl:service name="Calculator">
         <wsdl:port name="TranslatorHttpsSoap11Endpoint" binding="translator:TranslatorSoap11Binding">
             <soap:address location="https://localhost:8080/ws" />
         </wsdl:port>
