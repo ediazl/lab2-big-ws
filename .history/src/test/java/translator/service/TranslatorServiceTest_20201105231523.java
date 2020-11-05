@@ -18,7 +18,7 @@ public class TranslatorServiceTest {
 
   @Autowired
   TranslatorService translatorService;
-  
+
   @Test(expected = RuntimeException.class)
   public void translateTest() {
     TranslatedText translatedText = translatorService.translate("en", "es", "This is a test of translation service");
